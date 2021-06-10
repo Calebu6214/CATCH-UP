@@ -1,0 +1,59 @@
+/* font-family: 'Lobster', cursive; */
+body{ 
+    background-image: url(./Assets/fruits.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about{text-align: center;
+font-family: 'Lobster', 'cursive';
+}
+#product{
+     display: flex;
+     padding-top: 150px;
+}
+#product div{
+    padding: 10px 20px 10px 20px;
+    margin: 0 5px 0 5px;
+    text-align: center;
+    opacity: 0,9;
+    font-family: sans-serif;
+}
+#product>div{
+    background-color: rgb(255, 255, 0);
+    justify-content: space-around;
+}
+#nav{
+    background-color:yellow
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+#nav p{
+    margin-left: 2%;
+}
+ul{ 
+    justify-content: space-between;
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;}
+
+footer{
+    height: 100px;
+    margin-top: 10%;
+    background-color: turquoise;
+    text-align: center;
+    font-family: fantasy;
+    border: tomato;
+    
+}
+
+footer>p{
+    padding: 30px;
+}
